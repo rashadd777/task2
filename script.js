@@ -26,8 +26,8 @@ class Messenger{
         }
       }
       
-      send(author, txt) {
-          this.history.push(new Message(author, retrntime(), txt));
+      send(name, txt) {
+          this.history.push(new Message( name, retrntime(), txt));
       }
     }
 let messenger = new Messenger();
